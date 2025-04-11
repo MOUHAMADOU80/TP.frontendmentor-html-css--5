@@ -1,0 +1,19 @@
+html{display: grid; place-items: center;background-color: hsl(30, 38%, 92%);width: 100%; height: 100%;}
+body{width: 600px;}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+#container{display: flex;flex-direction: row;}
+img.parfum{width: 300px;height: 350px;}
+.info{width:40%;background-color: white;padding: 2%;flex: 1;}
+p{font-family: cursive;color: hsl(228, 12%, 48%);}
+strong{font-size: xx-large;margin-right: 5%;color: hsl(158, 36%, 37%);}
+.png{width: 20px;height: auto;margin-top: 1%;}
+.achat{padding: 4% 20%;background-color:hsl(158, 36%, 37%) ;color: white;border-radius: 10px;text-align: center;
+margin-top: 10px;}
+.achat:hover{background-color: hsl(158, 42%, 18%);cursor: pointer;}
+
+@media screen and (max-width:600px) { 
+    #container{display: flex;flex-direction: column;}
+    img.parfum{width: 300px;height: 200px;}
+
+}
